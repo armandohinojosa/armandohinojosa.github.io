@@ -42,3 +42,10 @@ pre {
 #table-of-contents ul li a:hover {
     color: #0000FF;
 }
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
