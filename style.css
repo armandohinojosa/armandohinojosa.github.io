@@ -1,71 +1,158 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    background-color: #000000;
-    font-family: 'Arial', sans-serif;
-    color: #FFFFFF; 
-    margin: 0;
-    padding: 0;
+  background-color: #000000;
+  font-family: 'Oswald', sans-serif;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  line-height: 1.6;
 }
 
+a {
+  color: #DC0000;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover {
+  color: #FFE600;
+}
+
+/* Common Heading Styles */
 h1, h2 {
-    background-color: #DC0000;
-    color: #FFFFFF;
-    padding: 20px;
-    border-bottom: 3px solid #000000;
+  text-transform: uppercase;
 }
 
-ul, ol {
-    margin-left: 20px;
+/* Header Styling */
+.ferrari-header {
+  background-color: #DC0000; /* Ferrari Red */
+  padding: 20px;
+  text-align: center;
+  border-bottom: 3px solid #FFE600; /* Ferrari Gold */
 }
 
-pre {
-    background-color: #FFE600;
-    padding: 10px;
-    border: 1px solid #000000;
-    border-radius: 5px;
+.ferrari-header h1 {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 2.5rem;
 }
 
-#table-of-contents ul {
-    list-style-type: none;
-    padding: 0;
+/* Main Content Styles */
+.main-content {
+  padding: 20px;
 }
 
-#table-of-contents ul li {
-    padding: 5px 0;
+.intro {
+  text-align: center;
+  margin-bottom: 30px;
 }
 
-#table-of-contents ul li a {
-    color: #DC0000;
-    text-decoration: none;
-    border-bottom: 1px dotted #DC0000;
+.section {
+  margin-bottom: 30px;
 }
 
-#table-of-contents ul li a:hover {
-    color: #FF5733;
-    border-bottom: 1px solid #FF5733;
+/* Content Box Styling */
+.contents {
+  background-color: #121212;
+  padding: 20px;
+  border: 2px solid #DC0000;
+  border-radius: 10px;
 }
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
+.contents h2 {
+  color: #FFE600;
+  margin-top: 0;
 }
 
-/* Add some padding to the body */
-body {
-    padding: 20px;
+.contents ul {
+  list-style-type: none;
+  padding: 0;
 }
 
-/* Add some margin to headers */
-h1, h2 {
-    margin-top: 20px;
-    margin-bottom: 20px;
+.contents ul li {
+  padding: 10px 0;
+  font-size: 1.2rem;
 }
 
-/* Use flexbox for centered elements */
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+.contents ul li a {
+  border-bottom: 1px dotted #DC0000;
+}
+
+.contents ul li a:hover {
+  border-bottom: 1px solid #FFE600;
+}
+
+/* Footer Styling */
+.ferrari-footer {
+  background-color: #DC0000; /* Ferrari Red */
+  text-align: center;
+  padding: 10px;
+  border-top: 3px solid #FFE600; /* Ferrari Gold */
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+
+.ferrari-footer p {
+  margin: 0;
+  color: #FFFFFF;
+  font-size: 0.9rem;
+}
+
+/* Image Styling */
+img.center-img {
+  display: block;
+  margin: 20px auto;
+  max-width: 100%;
+  height: auto;
+  border: 3px solid #fff; /* Adds a clean white border */
+  border-radius: 10px;
+}
+
+/* Button Styling */
+button {
+  background-color: #FFD700; /* Ferrari Gold */
+  color: #000;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+button:hover {
+  background-color: #fff;
+  color: #DC0000; /* Ferrari Red */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .main-content {
+    margin: 20px;
+    padding: 15px;
+  }
+
+  .ferrari-header h1 {
+    font-size: 2rem;
+  }
+
+  .contents h2 {
+    font-size: 1.5rem;
+  }
+
+  .contents ul li {
+    font-size: 1rem;
+  }
+
+  a {
+    font-size: 1rem;
+  }
 }
