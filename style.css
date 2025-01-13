@@ -1,27 +1,27 @@
 body {
-    background-color: #F5F5DC;
-    font-family: 'Courier New', Courier, monospace;
-    color: #000080;
+    background-color: #000000;
+    font-family: 'Arial', sans-serif;
+    color: #FFFFFF; 
     margin: 0;
     padding: 0;
 }
 
-h1,
-h2 {
-    background-color: #ADD8E6;
-    padding: 10px;
-    border-bottom: 2px solid #000080;
+h1, h2 {
+    background-color: #DC0000;
+    color: #FFFFFF;
+    padding: 20px;
+    border-bottom: 3px solid #000000;
 }
 
-ul,
-ol {
+ul, ol {
     margin-left: 20px;
 }
 
 pre {
-    background-color: #aee9ff;
+    background-color: #FFE600;
     padding: 10px;
-    border: 1px solid #000080;
+    border: 1px solid #000000;
+    border-radius: 5px;
 }
 
 #table-of-contents ul {
@@ -34,13 +34,14 @@ pre {
 }
 
 #table-of-contents ul li a {
-    color: #000080;
+    color: #DC0000;
     text-decoration: none;
-    border-bottom: 1px dotted #000080;
+    border-bottom: 1px dotted #DC0000;
 }
 
 #table-of-contents ul li a:hover {
-    color: #0000FF;
+    color: #FF5733;
+    border-bottom: 1px solid #FF5733;
 }
 
 .center {
@@ -48,4 +49,23 @@ pre {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-  }
+}
+
+/* Add some padding to the body */
+body {
+    padding: 20px;
+}
+
+/* Add some margin to headers */
+h1, h2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Use flexbox for centered elements */
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
