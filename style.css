@@ -15,13 +15,13 @@ body {
 }
 
 a {
-  color: #DC0000;
+  color: #00A19B;
   text-decoration: none;
   transition: color 0.3s;
 }
 
 a:hover {
-  color: #FFE600;
+  color: #ffffff ;
 }
 
 /* Common Heading Styles */
@@ -31,10 +31,10 @@ h1, h2 {
 
 /* Header Styling */
 .ferrari-header {
-  background-color: #DC0000; /* Ferrari Red */
+  background-color: rgba(0, 0, 0, 0); /* Ferrari Red */
   padding: 20px;
   text-align: center;
-  border-bottom: 3px solid #FFE600; /* Ferrari Gold */
+  border-bottom: 3px solid #00A19B; /* Ferrari Gold */
 }
 
 .ferrari-header h1 {
@@ -61,12 +61,12 @@ h1, h2 {
 .contents {
   background-color: #121212;
   padding: 20px;
-  border: 2px solid #DC0000;
+  border: 2px solid #000000;
   border-radius: 10px;
 }
 
 .contents h2 {
-  color: #FFE600;
+  color: #ffffff;
   margin-top: 0;
 }
 
@@ -81,19 +81,19 @@ h1, h2 {
 }
 
 .contents ul li a {
-  border-bottom: 1px dotted #DC0000;
+  border-bottom: 1px dotted #000000;
 }
 
 .contents ul li a:hover {
-  border-bottom: 1px solid #FFE600;
+  border-bottom: 1px solid #00A19B;
 }
 
 /* Footer Styling */
 .ferrari-footer {
-  background-color: #DC0000; /* Ferrari Red */
+  background-color: #000000; /* Ferrari Red */
   text-align: center;
   padding: 10px;
-  border-top: 3px solid #FFE600; /* Ferrari Gold */
+  border-top: 3px solid #00A19B; /* Ferrari Gold */
   position: relative;
   bottom: 0;
   width: 100%;
@@ -117,8 +117,8 @@ img.center-img {
 
 /* Button Styling */
 button {
-  background-color: #FFD700; /* Ferrari Gold */
-  color: #000;
+  background-color: #00A19B; /* Ferrari Gold */
+  color: #ffffff;
   border: none;
   padding: 10px 20px;
   border-radius: 5px;
@@ -130,7 +130,7 @@ button {
 
 button:hover {
   background-color: #fff;
-  color: #DC0000; /* Ferrari Red */
+  color: #000000; /* Ferrari Red */
 }
 
 /* Responsive Design */
