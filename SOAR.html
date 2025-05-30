@@ -3,80 +3,86 @@
 
 <head>
   <meta charset="UTF-8">
-
-  <!-- Begin Jekyll SEO tag v2.8.0 -->
   <title>SOAR - Armando Hinojosa SOAR Portfolio</title>
-  <meta name="generator" content="Jekyll v3.9.3" />
-  <meta property="og:title" content="Portfolio" />
-  <meta property="og:locale" content="en_US" />
-  <meta name="description" content="My portfolio" />
-  <meta property="og:description" content="My portfolio" />
-  <link rel="canonical" href="" />
-  <meta property="og:url" content="" />
-  <meta property="og:site_name" content="" />
-  <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary" />
-  <meta property="twitter:title" content="brainlack" />
-  <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "WebSite",
-      "description": "",
-      "headline": "brainlack",
-      "name": "",
-      "url": ""
-    }
-  </script>
-  <!-- End Jekyll SEO tag -->
-
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="theme-color" content="#157878">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
-    integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <meta name="description" content="My portfolio">
   <link rel="stylesheet" href="style.css">
-  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Modern, clean fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    /* Add responsive styling for images and text */
-    .center {
-      max-width: 100%; /* Ensures the image fits within the container */
-      height: auto; /* Maintains aspect ratio */
+    .soar-logo {
       display: block;
-      margin: 0 auto; /* Centers the image */
+      margin: 32px auto 0 auto;
+      max-width: 220px;
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      border: 4px solid #00E6D8;
+      box-shadow: 0 4px 32px 0 rgba(0,0,0,0.18);
+      background: #232526;
     }
-
-    body {
-      font-size: 16px; /* Base font size */
-    }
-
-    @media (min-width: 768px) {
-      body {
-        font-size: 18px; /* Larger font size for bigger screens */
+    @media (max-width: 600px) {
+      .soar-logo {
+        max-width: 98vw;
+        border-width: 2px;
+        margin-top: 16px;
       }
+    }
+    .soar-section {
+      margin-bottom: 36px;
+    }
+    .soar-section h2 {
+      color: #00E6D8;
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+    }
+    .soar-section p {
+      color: #B0BEC5;
+      font-size: 1.13rem;
+      margin-bottom: 8px;
+      line-height: 1.7;
     }
   </style>
 </head>
 
 <body>
   <header class="ferrari-header">
-    <img src="assets/SOAR.png" alt="SOAR" class="center">
+    <img src="assets/SOAR.png" alt="SOAR" class="soar-logo">
+    <p style="color:#B0BEC5; font-size:1.1rem; margin-top:10px; letter-spacing:0.5px;">
+      Service • Ownership • Achievement • Respect
+    </p>
   </header>
   <main id="content" class="main-content" role="main">
-    <h2 id="service">S - Service</h2>
-    <p>SERVICE means providing help or support to someone or something.</p>
-    <p>An example of service is helping someone with their groceries.</p>
+    <section class="contents soar-section">
+      <h2 id="service">S - Service</h2>
+      <p>SERVICE means providing help or support to someone or something.</p>
+      <p>An example of service is helping someone with their groceries.</p>
+    </section>
 
-    <h2 id="ownership">O - Ownership</h2>
-    <p>OWNERSHIP means acknowledging and accepting responsibility for the consequences of your actions.</p>
-    <p>An example of OWNERSHIP is admitting to making a mistake and taking the necessary steps to correct it, rather than blaming others or making excuses. For example, I broke a dish and acknowledged the mistake by saying it was me and apologizing.</p>
+    <section class="contents soar-section">
+      <h2 id="ownership">O - Ownership</h2>
+      <p>OWNERSHIP means acknowledging and accepting responsibility for the consequences of your actions.</p>
+      <p>An example of ownership is admitting to making a mistake and taking the necessary steps to correct it, rather than blaming others or making excuses. For example, I broke a dish and acknowledged the mistake by saying it was me and apologizing.</p>
+    </section>
 
-    <h2 id="achievement">A - Achievement</h2>
-    <p>ACHIEVEMENT is the act of accomplishing something or achieving a goal.</p>
-    <p>An example of achievement is earning an honor roll certificate.</p>
+    <section class="contents soar-section">
+      <h2 id="achievement">A - Achievement</h2>
+      <p>ACHIEVEMENT is the act of accomplishing something or achieving a goal.</p>
+      <p>An example of achievement is earning an honor roll certificate.</p>
+    </section>
 
-    <h2 id="respect">R - Respect</h2>
-    <p>RESPECT means treating someone with consideration and esteem.</p>
-    <p>An example of respect is listening carefully to another person's opinions.</p>
+    <section class="contents soar-section">
+      <h2 id="respect">R - Respect</h2>
+      <p>RESPECT means treating someone with consideration and esteem.</p>
+      <p>An example of respect is listening carefully to another person's opinions.</p>
+    </section>
+    <div style="text-align:center; margin-top:32px;">
+        <a href="index.html">
+          <button>Back to Home</button>
+        </a>
+      </div>
   </main>
 
   <footer class="ferrari-footer">
