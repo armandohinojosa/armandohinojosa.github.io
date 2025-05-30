@@ -195,3 +195,13 @@ button:hover {
     font-size: 1rem;
   }
 }
+
+/* Fade-in page transition */
+body {
+  opacity: 0;
+  transition: opacity 0.7s cubic-bezier(.4,0,.2,1);
+}
+
+body.page-loaded {
+  opacity: 1;
+}
