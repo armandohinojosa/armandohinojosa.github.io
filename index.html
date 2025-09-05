@@ -4,55 +4,251 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Armando Hinojosa's portfolio">
-  <title>Armando Hinojosa Portfolio</title>
+  <meta name="description" content="Armando Hinojosa - High School Student Portfolio">
+  <title>Armando Hinojosa | Student Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Modern, clean fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-  <header class="ferrari-header">
-    <h1>Armando Hinojosa Portfolio</h1>
-    <p style="color:#B0BEC5; font-size:1.1rem; margin-top:10px; letter-spacing:0.5px;">
-      Developer • Designer • Dreamer
-    </p>
-  </header>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">AH</span>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="#home" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">More</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="life.html" class="nav-link">Future</a>
+        <a href="SOAR.html" class="nav-link">SOAR</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
 
-  <main class="main-content">
-    <section class="intro">
-      <h2 style="font-size:2.2rem; color:#00E6D8; margin-bottom:10px; letter-spacing:1px;">Welcome</h2>
-      <p style="max-width:600px; margin:0 auto; color:#B0BEC5; font-size:1.25rem;">
-        Your journey through my work, achievements, and aspirations starts here.
-      </p>
-      <img src="assets/profile.jpg" alt="Armando Hinojosa" class="center-img" style="margin-top:32px; max-width:160px; border-radius:50%; border-width:3px;">
-    </section>
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-bg-image"></div>
+    <div class="hero-bg-overlay"></div>
+    <div class="hero-container">
+      <div class="hero-content">
+        <div class="hero-text">
+          <h1 class="hero-title">
+            <span class="gradient-text">Armando Hinojosa</span>
+          </h1>
+          <h2 class="hero-subtitle">High School Student & Aspiring IT Professional</h2>
+          <p class="hero-description">
+            Welcome to my portfolio! I am a high school student with a passion for motorsports, engineering, and technology. My dream is to become an IT system administrator managing systems for big companies and/or schools. I enjoy programming, kart racing, experimenting with new technologies, video games, and puzzles.
+          </p>
+          <div class="hero-buttons">
+            <a href="about.html" class="btn btn-primary">
+              <i class="fas fa-user"></i>
+              About Me
+            </a>
+            <a href="work.html" class="btn btn-secondary">
+              <i class="fas fa-code"></i>
+              View Work
+            </a>
+          </div>
+        </div>
+        <div class="hero-image">
+          <div class="image-container">
+            <img src="assets/profile.jpg" alt="Armando Hinojosa" class="profile-img">
+            <div class="image-overlay"></div>
+          </div>
+        </div>
+      </div>
+      <div class="scroll-indicator">
+        <div class="scroll-arrow">
+          <i class="fas fa-chevron-down"></i>
+        </div>
+      </div>
+    </div>
+  </section>
 
-    <section id="table-of-contents" class="contents" style="margin-top:32px;">
-      <h2>Table of Contents</h2>
-      <ul>
-        <li><a href="about.html">About</a></li>
-        <li><a href="life.html">Life After High School</a></li>
-        <li><a href="work.html">Quality Work</a></li>
-        <li><a href="SOAR.html">SOAR</a></li>
-      </ul>
-    </section>
-    <div style="text-align:center; margin-top:32px;">
-        <a href="about.html">
-          <button>Start Exploring</button>
+  <!-- About Me Section -->
+  <section class="about-preview">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-text">
+          <p>
+            Creativity, perseverance, and hard work are values that inspire me, especially those instilled by my family and my father. Over four years of high school, I've learned to manage my time, collaborate, and solve problems with determination. My goal is to study computer science and get many different IT certifications.
+          </p>
+          <p>
+            Thank you for taking the time to learn more about me and my aspirations. I'm excited for the future and the opportunities ahead in IT technologies and computer science!
+          </p>
+        </div>
+        <div class="values-grid">
+          <div class="value-item">
+            <i class="fas fa-lightbulb"></i>
+            <span>Creativity</span>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-mountain"></i>
+            <span>Perseverance</span>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-dumbbell"></i>
+            <span>Hard Work</span>
+          </div>
+          <div class="value-item">
+            <i class="fas fa-heart"></i>
+            <span>Family Values</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Quick Navigation Cards -->
+  <section class="nav-cards">
+    <div class="container">
+      <h2 class="section-title">Explore My Portfolio</h2>
+      <div class="cards-grid">
+        <a href="about.html" class="nav-card">
+          <div class="card-icon">
+            <i class="fas fa-user"></i>
+          </div>
+          <h3>More About Me</h3>
+          <p>Learn more about my interests, hobbies, and what drives my passion for technology</p>
+          <div class="card-arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </a>
+        
+        <a href="life.html" class="nav-card">
+          <div class="card-icon">
+            <i class="fas fa-graduation-cap"></i>
+          </div>
+          <h3>Future Plans</h3>
+          <p>Discover my college plans and career preparation for the IT field</p>
+          <div class="card-arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </a>
+        
+        <a href="work.html" class="nav-card">
+          <div class="card-icon">
+            <i class="fas fa-code"></i>
+          </div>
+          <h3>Academic Work</h3>
+          <p>Explore my school projects and academic achievements</p>
+          <div class="card-arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
+        </a>
+        
+        <a href="SOAR.html" class="nav-card">
+          <div class="card-icon">
+            <i class="fas fa-rocket"></i>
+          </div>
+          <h3>SOAR Analysis</h3>
+          <p>View my comprehensive strengths, opportunities, aspirations, and results</p>
+          <div class="card-arrow">
+            <i class="fas fa-arrow-right"></i>
+          </div>
         </a>
       </div>
-  </main>
+    </div>
+  </section>
 
-  <footer class="ferrari-footer">
-    <p>© 2025 Armando Hinojosa. All rights reserved.</p>
+  <!-- Skills Preview -->
+  <section class="skills-preview">
+    <div class="container">
+      <h2 class="section-title">Technical Skills</h2>
+      <div class="skills-grid">
+        <div class="skill-item">
+          <i class="fas fa-laptop-code"></i>
+          <span>Programming</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-server"></i>
+          <span>System Administration</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-network-wired"></i>
+          <span>Networking</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-database"></i>
+          <span>Database Management</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-shield-alt"></i>
+          <span>Cybersecurity</span>
+        </div>
+        <div class="skill-item">
+          <i class="fas fa-cloud"></i>
+          <span>Cloud Computing</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; 2025 Armando Hinojosa. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">More</a>
+          <a href="work.html" class="footer-link">Work</a>
+          <a href="life.html" class="footer-link">Future</a>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script>
-  window.addEventListener('DOMContentLoaded', function() {
-    document.body.classList.add('page-loaded');
-  });
+    // Mobile navigation toggle
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+    }));
+
+    // Smooth scrolling for anchor links
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+      anchor.addEventListener('click', function (e) {
+        e.preventDefault();
+        const target = document.querySelector(this.getAttribute('href'));
+        if (target) {
+          target.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
+        }
+      });
+    });
+
+    // Add scroll effect to navbar
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
+    });
   </script>
 </body>
-
 </html>

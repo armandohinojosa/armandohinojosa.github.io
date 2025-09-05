@@ -1,95 +1,235 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>Life After High School - Armando Hinojosa SOAR Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Future Plans - Armando Hinojosa Student Portfolio">
+  <title>Future Plans - Armando Hinojosa | Student Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Modern, clean fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
-  <style>
-    .ferrari-image {
-      max-width: 80%;
-      width: 600px;
-      height: auto;
-      display: block;
-      margin: 32px auto 0 auto;
-      border-radius: 14px;
-      box-shadow: 0 4px 32px 0 rgba(0,0,0,0.18);
-      border: 4px solid #00E6D8;
-      transition: box-shadow 0.2s, transform 0.2s;
-    }
-    .ferrari-image:hover {
-      box-shadow: 0 8px 40px 0 rgba(0,0,0,0.28);
-      transform: translateY(-4px) scale(1.01);
-    }
-    @media (max-width: 700px) {
-      .ferrari-image {
-        width: 98vw;
-        max-width: 98vw;
-        border-width: 2px;
-        margin-top: 16px;
-      }
-    }
-  </style>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-  <header class="ferrari-header">
-    <nav style="text-align:center; margin-bottom:20px;">
-      <a href="index.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">Home</a>
-      <a href="about.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">About</a>
-      <a href="life.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">Life After High School</a>
-      <a href="work.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">Quality Work</a>
-      <a href="SOAR.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">SOAR</a>
-    </nav>
-    <h1>Life After High School</h1>
-    <p style="color:#B0BEC5; font-size:1.1rem; margin-top:10px; letter-spacing:0.5px;">
-      My Journey Beyond Graduation
-    </p>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">AH</span>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">More</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="life.html" class="nav-link">Future</a>
+        <a href="SOAR.html" class="nav-link">SOAR</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-title">
+        <span class="gradient-text">Future Plans</span>
+      </h1>
+      <p class="page-subtitle">
+        My Post-Graduation Goals & Career Preparation
+      </p>
+    </div>
   </header>
 
-  <main id="content" class="main-content" role="main">
-    <section class="contents" style="margin-top:32px;">
-      <h2 style="color:#00E6D8;">Cover Letter</h2>
-      <a href="https://docs.google.com/document/d/1sS9uzxurt2J7_mevudZhTR8OJ4C9Wa4F1g254OJ6aZw/edit?usp=sharing" class="ferrari-link" target="_blank">
-        <img src="assets/cover-letter-thumbnail.jpg" alt="View Cover Letter" class="ferrari-image" style="max-width:320px;">
-      </a>
-    </section>
+  <!-- Main Content -->
+  <main class="page-content">
+    <div class="container">
+      <div class="content-section">
+        <h2><i class="fas fa-file-alt"></i> Professional Documents</h2>
+        <p>Explore my professional documentation and career preparation materials that demonstrate my readiness for the next phase of my educational and professional journey.</p>
+        
+        <div class="cards-grid" style="margin-top: 2rem;">
+          <a href="https://docs.google.com/document/d/1sS9uzxurt2J7_mevudZhTR8OJ4C9Wa4F1g254OJ6aZw/edit?usp=sharing" 
+             target="_blank" class="nav-card">
+            <img src="assets/cover-letter-thumbnail.jpg" alt="Cover Letter Preview" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <h3>Cover Letter</h3>
+            <p>Professional cover letter showcasing my communication skills and career aspirations</p>
+            <div class="card-arrow">
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </a>
+          
+          <a href="https://docs.google.com/document/d/1TYFxT0D_sKn-Ebtvz5K3yIuupqw2TV2hRp-rX5LKK5M/edit?usp=sharing" 
+             target="_blank" class="nav-card">
+            <img src="assets/resume-thumbnail.jpg" alt="Resume Preview" 
+                 style="width: 100%; height: 200px; object-fit: cover; border-radius: 8px; margin-bottom: 1rem;">
+            <div class="card-icon">
+              <i class="fas fa-file-user"></i>
+            </div>
+            <h3>Resume</h3>
+            <p>Comprehensive resume highlighting my skills, experience, and achievements</p>
+            <div class="card-arrow">
+              <i class="fas fa-external-link-alt"></i>
+            </div>
+          </a>
+        </div>
+      </div>
 
-    <section class="contents">
-      <h2 style="color:#00E6D8;">Resume</h2>
-      <a href="https://docs.google.com/document/d/1TYFxT0D_sKn-Ebtvz5K3yIuupqw2TV2hRp-rX5LKK5M/edit?usp=sharing" class="ferrari-link" target="_blank">
-        <img src="assets/resume-thumbnail.jpg" alt="View Cover Letter" class="ferrari-image" style="max-width:320px;">
-      </a>
-    </section>
+      <div class="content-section">
+        <h2><i class="fas fa-certificate"></i> Professional Development</h2>
+        <p>Here are some key achievements and documents that demonstrate my professional readiness and preparation for my future career in IT.</p>
+        
+        <div class="image-gallery" style="margin-top: 2rem;">
+          <div class="gallery-item">
+            <img src="assets/mock-interview-rubric.jpg" alt="Mock Interview Rubric">
+            <div class="gallery-item-content">
+              <h4>Mock Interview Assessment</h4>
+              <p>Professional interview practice sessions with detailed feedback and scoring criteria to improve my communication skills.</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="assets/cert.jpg" alt="Work Readiness Certificate">
+            <div class="gallery-item-content">
+              <h4>Work Readiness Certification</h4>
+              <p>Official certification demonstrating my professional readiness and essential workplace skills for future employment.</p>
+            </div>
+          </div>
+          
+          <div class="gallery-item">
+            <img src="assets/school_logo.png" alt="School Achievement">
+            <div class="gallery-item-content">
+              <h4>Academic Excellence</h4>
+              <p>Representing my school's commitment to preparing students for successful careers in technology and beyond.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
-    <section class="contents">
-      <h2 style="color:#00E6D8;">Mock Interview Rubric</h2>
-      <img src="assets/mock-interview-rubric.jpg" alt="Mock Interview Rubric" class="ferrari-image">
-    </section>
+      <div class="content-section">
+        <h2><i class="fas fa-graduation-cap"></i> Educational Goals</h2>
+        <p>My post-graduation plans focus on building a strong foundation in computer science and information technology:</p>
+        
+        <ul>
+          <li><strong>Computer Science Degree:</strong> Pursuing a bachelor's degree in Computer Science to build comprehensive technical knowledge</li>
+          <li><strong>IT Certifications:</strong> Obtaining industry-recognized certifications in areas like networking, cybersecurity, and cloud computing</li>
+          <li><strong>Practical Experience:</strong> Gaining hands-on experience through internships and personal projects</li>
+          <li><strong>Continuous Learning:</strong> Staying current with emerging technologies and industry trends</li>
+        </ul>
+      </div>
 
-    <section class="contents">
-      <h2 style="color:#00E6D8;">Work Readiness Badge Certificate</h2>
-      <img src="assets/cert.jpg" alt="Work Readiness Badge Certificate" class="ferrari-image">
-    </section>
-    <div style="text-align:center; margin-top:32px;">
-        <a href="work.html">
-          <button>Continue</button>
+      <div class="content-section">
+        <h2><i class="fas fa-briefcase"></i> Career Aspirations</h2>
+        <p>My ultimate goal is to become an IT System Administrator managing systems for large organizations:</p>
+        
+        <div class="skills-grid" style="margin-top: 2rem;">
+          <div class="skill-item">
+            <i class="fas fa-server"></i>
+            <span>System Administration</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-network-wired"></i>
+            <span>Network Management</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-shield-alt"></i>
+            <span>Cybersecurity</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-cloud"></i>
+            <span>Cloud Infrastructure</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-database"></i>
+            <span>Database Administration</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-users-cog"></i>
+            <span>Team Leadership</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section">
+        <h2><i class="fas fa-route"></i> Action Plan</h2>
+        <div style="background: var(--bg-primary); padding: 2rem; border-radius: 12px; border-left: 4px solid var(--primary-color);">
+          <h4 style="color: var(--primary-color); margin-bottom: 1.5rem;">
+            <i class="fas fa-calendar-alt"></i> Roadmap to Success
+          </h4>
+          
+          <div style="display: grid; gap: 1rem;">
+            <div style="padding: 1rem; background: var(--bg-secondary); border-radius: 8px;">
+              <strong style="color: var(--accent-color);">Year 1-2:</strong> Complete foundational computer science courses and begin networking certifications
+            </div>
+            <div style="padding: 1rem; background: var(--bg-secondary); border-radius: 8px;">
+              <strong style="color: var(--accent-color);">Year 3-4:</strong> Pursue internships and advanced certifications while completing degree
+            </div>
+            <div style="padding: 1rem; background: var(--bg-secondary); border-radius: 8px;">
+              <strong style="color: var(--accent-color);">Post-Graduation:</strong> Secure entry-level IT position and continue professional development
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="work.html" class="btn btn-primary">
+          <i class="fas fa-arrow-right"></i>
+          Continue to Quality Work
         </a>
       </div>
+    </div>
   </main>
 
-  <footer class="ferrari-footer">
-    <p>© 2025 Armando Hinojosa. All rights reserved.</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; 2025 Armando Hinojosa. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About</a>
+          <a href="work.html" class="footer-link">Work</a>
+          <a href="SOAR.html" class="footer-link">SOAR</a>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script>
-  window.addEventListener('DOMContentLoaded', function() {
-    document.body.classList.add('page-loaded');
+    // Mobile navigation toggle
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+    }));
+
+    // Add scroll effect to navbar
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
     });
   </script>
 </body>
-
 </html>

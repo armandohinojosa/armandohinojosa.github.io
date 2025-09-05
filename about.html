@@ -1,57 +1,163 @@
 <!DOCTYPE html>
-<html lang="en-US">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
-  <title>About - Armando Hinojosa SOAR Portfolio</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="More About Armando Hinojosa - High School Student">
+  <title>More About Me - Armando Hinojosa | Student Portfolio</title>
   <link rel="stylesheet" href="style.css">
-  <!-- Modern, clean fonts -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Oswald:wght@400;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
 
 <body>
-  <header class="ferrari-header">
-    <nav style="text-align:center; margin-bottom:20px;">
-      <a href="index.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">Home</a>
-      <a href="about.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">About</a>
-      <a href="life.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">Life After High School</a>
-      <a href="work.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">Quality Work</a>
-      <a href="SOAR.html" style="margin:0 15px; color:#00E6D8; text-decoration:none; font-weight:bold;">SOAR</a>
-    </nav>
-    <h1>About Me</h1>
-    <p style="color:#B0BEC5; font-size:1.1rem; margin-top:10px; letter-spacing:0.5px;">
-      Driven by Passion • Inspired by Innovation
-    </p>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <div class="nav-logo">
+        <span class="logo-text">AH</span>
+      </div>
+      <div class="nav-menu" id="nav-menu">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="about.html" class="nav-link">More</a>
+        <a href="work.html" class="nav-link">Work</a>
+        <a href="life.html" class="nav-link">Future</a>
+        <a href="SOAR.html" class="nav-link">SOAR</a>
+      </div>
+      <div class="hamburger" id="hamburger">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Page Header -->
+  <header class="page-header">
+    <div class="container">
+      <h1 class="page-title">
+        <span class="gradient-text">More About Me</span>
+      </h1>
+      <p class="page-subtitle">
+        My Interests, Hobbies & What Drives Me
+      </p>
+    </div>
   </header>
 
-  <main id="content" class="main-content" role="main">
-    <section class="contents" style="margin-top:32px;">
-      <img src="assets/profile.jpg" alt="Armando Hinojosa" class="center-img" style="max-width:140px; border-radius:50%; border-width:3px; margin-bottom:24px;">
-      <h2 style="color:#00E6D8; font-size:1.7rem; margin-bottom:12px;">Hello, I'm Armando Hinojosa</h2>
-      <p style="color:#B0BEC5; font-size:1.15rem; max-width:700px; margin:0 auto 18px auto; line-height:1.8;">
-        Welcome to my portfolio! I am a high school student with a passion for motorsports, engineering, and technology. My dream is to become an IT system administrator managing systems for big companies and/or schools. I enjoy programming, kart racing, experimenting with new technologies, video games, and puzzles. Creativity, perseverance, and hard work are values that inspire me, especially those instilled by my family and my father. Over four years of high school, I’ve learned to manage my time, collaborate, and solve problems with determination. My goal is to study computer science and get many different IT certifications.
-      </p>
-      <p style="color:#B0BEC5; font-size:1.15rem; max-width:700px; margin:0 auto 18px auto; line-height:1.8;">
-        Thank you for taking the time to learn more about me and my aspirations. I’m excited for the future and the opportunities ahead in IT technologies and computer science. Explore the rest of my portfolio to see my projects and achievements!
-      </p>
-    </section>
-    <div style="text-align:center; margin-top:32px;">
-        <a href="life.html">
-          <button>Continue</button>
+  <!-- Main Content -->
+  <main class="page-content">
+    <div class="container">
+      <div class="content-section">
+        <div style="text-align: center; margin-bottom: 2rem;">
+          <img src="assets/profile.jpg" alt="Armando Hinojosa" class="center-img">
+        </div>
+        
+        <h2><i class="fas fa-user"></i> A Deeper Look</h2>
+        <p>
+          As a high school student, I've discovered that my passion for technology goes beyond just the technical aspects. I'm fascinated by how technology can solve real-world problems and improve people's lives. Whether it's through programming, system administration, or simply helping someone troubleshoot their computer, I find fulfillment in using technology to make a difference.
+        </p>
+        <p>
+          My journey in high school has taught me the importance of balance. While I'm dedicated to my academic pursuits and technical skills development, I also make time for the things I love - like kart racing, which teaches me quick decision-making and precision under pressure, skills that translate well into the IT field.
+        </p>
+        <p>
+          The values instilled by my family, especially my father, guide everything I do. They've taught me that success isn't just about individual achievement, but about contributing to something larger than yourself and lifting others up along the way.
+        </p>
+      </div>
+
+      <div class="content-section">
+        <h2><i class="fas fa-heart"></i> My Interests & Hobbies</h2>
+        <div class="skills-grid" style="margin-top: 2rem;">
+          <div class="skill-item">
+            <i class="fas fa-car"></i>
+            <span>Motorsports & Karting</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-laptop-code"></i>
+            <span>Programming</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-gamepad"></i>
+            <span>Video Games</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-puzzle-piece"></i>
+            <span>Problem Solving</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-cogs"></i>
+            <span>Technology</span>
+          </div>
+          <div class="skill-item">
+            <i class="fas fa-tools"></i>
+            <span>Engineering</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="content-section">
+        <h2><i class="fas fa-bullseye"></i> Core Values</h2>
+        <ul>
+          <li><strong>Creativity:</strong> Finding innovative solutions to complex problems</li>
+          <li><strong>Perseverance:</strong> Never giving up when faced with challenges</li>
+          <li><strong>Hard Work:</strong> Putting in the effort required to achieve excellence</li>
+          <li><strong>Family Values:</strong> Drawing inspiration from my father and family</li>
+          <li><strong>Collaboration:</strong> Working effectively with others to achieve common goals</li>
+          <li><strong>Time Management:</strong> Balancing multiple responsibilities efficiently</li>
+        </ul>
+      </div>
+
+      <div style="text-align: center; margin-top: 3rem;">
+        <a href="life.html" class="btn btn-primary">
+          <i class="fas fa-arrow-right"></i>
+          Continue to Life Goals
         </a>
       </div>
+    </div>
   </main>
 
-  <footer class="ferrari-footer">
-    <p>© 2025 Armando Hinojosa. All rights reserved.</p>
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-text">
+          <p>&copy; 2025 Armando Hinojosa. All rights reserved.</p>
+        </div>
+        <div class="footer-links">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="about.html" class="footer-link">About</a>
+          <a href="work.html" class="footer-link">Work</a>
+          <a href="SOAR.html" class="footer-link">SOAR</a>
+        </div>
+      </div>
+    </div>
   </footer>
 
   <script>
-  window.addEventListener('DOMContentLoaded', function() {
-    document.body.classList.add('page-loaded');
+    // Mobile navigation toggle
+    const hamburger = document.getElementById('hamburger');
+    const navMenu = document.getElementById('nav-menu');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('active');
+      navMenu.classList.toggle('active');
+    });
+
+    // Close mobile menu when clicking on a link
+    document.querySelectorAll('.nav-link').forEach(n => n.addEventListener('click', () => {
+      hamburger.classList.remove('active');
+      navMenu.classList.remove('active');
+    }));
+
+    // Add scroll effect to navbar
+    window.addEventListener('scroll', () => {
+      const navbar = document.querySelector('.navbar');
+      if (window.scrollY > 100) {
+        navbar.classList.add('scrolled');
+      } else {
+        navbar.classList.remove('scrolled');
+      }
     });
   </script>
 </body>
-
 </html>
